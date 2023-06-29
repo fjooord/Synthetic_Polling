@@ -1,10 +1,16 @@
 # Synthetic_Polling
 Using GPT-3.5 and GPT-4 to simulate public opinion
 
+# TL;DR: 
+This project uses language model-based systems to predict the outcomes of polls as an alternative to traditional polling methods, which can be costly and often suffer from bias and demographic representation issues. The experiment simulates a poll by creating detailed personas representative of a target population (in this case, Montana residents) and using these personas as prompts to a large language model (LLM). These models are then asked a series of questions, and their responses are compared with the results of a real poll.
+
+Issues arise with the existing models like GPT-3.5-turbo showing bias and always responding with certain answers regardless of the persona's characteristics. GPT-4 seems to perform better, offering more nuanced answers aligned with the demographic profiles, but comes with a significantly higher cost due to increased token cost.
+
+Although the technology shows promise, extensive testing on model bias needs to be done to ensure valid and representative results. The estimated cost of a simulated poll using GPT-4, around $80, is significantly cheaper than traditional polls, which could cost between $20,000 and $40,000. Future work includes running a full simulation with GPT-4 and better structuring of prompts and personas for improved feedback.
+
+
+
 # Simulated Polling Write Up
-
-Code not yet released as it is part of a larger private project
-
 # Inspiration
 
 - I feel one of the true powers of LLM systems is going to be the ability to predict the outcomes actions would have, and when AGI/ACE systems are built to scale, they will be able to understand what the consequences to a given action would be down to a granular level.
