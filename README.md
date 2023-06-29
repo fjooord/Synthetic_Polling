@@ -1,7 +1,7 @@
 # Synthetic_Polling
 Using GPT-3.5 and GPT-4 to simulate public opinion
 
-# TL;DR: 
+# TL;DR
 This project uses language model-based systems to predict the outcomes of polls as an alternative to traditional polling methods, which can be costly and often suffer from bias and demographic representation issues. The experiment simulates a poll by creating detailed personas representative of a target population (in this case, Montana residents) and using these personas as prompts to a large language model (LLM). These models are then asked a series of questions, and their responses are compared with the results of a real poll.
 
 Issues arise with the existing models like GPT-3.5-turbo showing bias and always responding with certain answers regardless of the persona's characteristics. GPT-4 seems to perform better, offering more nuanced answers aligned with the demographic profiles, but comes with a significantly higher cost due to increased token cost.
